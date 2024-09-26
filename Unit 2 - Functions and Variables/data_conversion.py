@@ -26,4 +26,3 @@ h_flo = float(h)
 i_flo = float(i)
 j_int = int(j)
 k_byt = bin(k)
-
