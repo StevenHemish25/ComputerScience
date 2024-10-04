@@ -32,3 +32,9 @@ print("cat" + 3)  #ERROR, cant use + for string and int
 
 
 my_variable = 2 + 3  #arithmetic operations can be done anywhere
+
+
+
+
+
+
