@@ -7,7 +7,10 @@
 # HUGE HINT!
 # you can use more than one logical operator in a conditional
 # Use parenthesis to group if needed)
-
+prime = True
+age = 18
+consent = False
+cost = 15
 
 
 def free_shipping(prime,cost,age,consent):
@@ -15,3 +18,5 @@ def free_shipping(prime,cost,age,consent):
         print("You have free shipping")
     else:
         print("You do not have free shipping")
+
+free_shipping(prime,cost,age,consent)
