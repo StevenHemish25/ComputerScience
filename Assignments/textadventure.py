@@ -301,7 +301,7 @@ def bad_purchase():
 
     if choice == ("1"):
         print("You lose support for re-election. Game over")  #GAME END NON UNIQUE
-    if choice == ("2"):
+    elif choice == ("2"):
         wrong_doing()
     else:
         print("Invalid answer")
@@ -310,7 +310,7 @@ def bad_purchase():
 # END OF ENCOUNTER 13
         
 def waterfront():
-    print("Voters have found out you spent money on a luxurious waterfront property. \n Your character dies in a vehicular accident on their way to the new propert. \n Rest in peace Player1 \n Click here to add text \n Game over")
+    print("Voters have found out you spent money on a luxurious waterfront property. \n Your character dies in a vehicular accident on their way to the new property. \n Rest in peace Player1 \n Click here to add text \n Game over")
 #UNIQUE GAME-END 3
     
 def president_run():
@@ -374,7 +374,7 @@ def protests():
         
 
 def shipment():
-    print("Your decision to ship cats nearby states is wildly unplopular amongst your neighbors \n Your cabinet coerces you to resign after the humiliation of the incident")
+    print("Your decision to ship cats to nearby states is wildly unplopular amongst your neighbors \n Your cabinet coerces you to resign after the humiliation of the incident")
 
 
 # NON UNIQUE GAME END
@@ -404,7 +404,7 @@ def opportunity():
     print("You decide to spend the rest of your life as a manager for a cat hotel. \n Happy Ending")
 
 
-# NON UNIQUE GAME END
+# UNIQUE GAME END
 
 
 def re_election():
