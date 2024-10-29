@@ -356,7 +356,7 @@ def advertisement():
 
 def protests():
     print("Your lack of action has caused protests against you")
-    print("1. Call in the national guard to kill the protesters, \nThe National Guard shot and killed 4 student protesters of kent state university in 1970. \n What's different this time?")
+    print("1. Call in the national guard")
     print("2. Resign")
 
     choice = input("> ")
