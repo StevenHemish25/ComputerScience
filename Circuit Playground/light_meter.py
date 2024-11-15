@@ -14,6 +14,73 @@ while True:
     
     if cp.light == 30:
         cp.pixels[0] = (0,0,5)
-    if cp.light == 27:
+    elif cp.light == 27:
         cp.pixels[0] = (0,0,5)
         cp.pixels[1] = (0,0,5)
+    elif cp.light == 24:
+        cp.pixels[0] = (0,0,5)
+        cp.pixels[1] = (0,0,5)
+        cp.pixels[2] = (0,0,5)
+    elif cp.light == 21:
+        
+        for m in range(0,4):
+            
+            cp.pixels[m] = (0,0,5)
+
+    elif cp.light == 18:
+
+        for l in range(0,5):
+            
+            cp.pixels[l] = (0,0,5)
+
+    elif cp.light == 18:
+
+        for l in range(0,5):
+            
+            cp.pixels[l] = (0,0,5)
+        
+    elif cp.light == 18:
+
+        for l in range(0,5):
+            
+            cp.pixels[l] = (0,0,5)
+
+    elif cp.light == 18:
+
+        for l in range(0,5):
+            
+            cp.pixels[l] = (0,0,5)
+    
+    elif cp.light == 15:
+
+        for l in range(0,6):
+
+            cp.pixels[l] = (0,0,5)
+
+    elif cp.light == 12:
+
+        for l in range(0,7):
+
+            cp.pixels[l] = (0,0,5)
+
+    elif cp.light == 9:
+
+        for l in range(0,8):
+
+            cp.pixels[l] = (0,0,5)
+
+    elif cp.light == 6:
+
+        for l in range(0,9):
+
+            cp.pixels[l] = (0,0,5)
+
+    elif cp.light == 3:
+
+        for l in range(0,10):
+
+            cp.pixels[l] = (0,0,5)
+
+    
+
+    

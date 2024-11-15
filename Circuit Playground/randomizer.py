@@ -1,3 +1,5 @@
+# We first need to import board specific tools
+# Every project for this board will need this statement
 from adafruit_circuitplayground import cp
 import time
 import random
@@ -6,23 +8,16 @@ import random
 # we do not want the program to ever end
 # Thats why we put our work in a while TRUE, because while true runs forever
 
-count = 0
 
-
-    
-    
 
 while True:
     
-    
-    if cp.button_a:
-        while cp.button_a:
-             pass
-        count += 1
-        
-        cp.pixels[-1 + count] = (0,0,5)
+    x, y, z = cp.acceleration
 
-    elif cp.button_b:
-        while cp.button_a:
-            pass
-        count -= 1
+    if abs(z) > 25:
+
+        for i in range(0,10):
+
+            cp.pixels[i] = (random.randint(0,10),random.randint(0,10),random.randint(0,10))
+
+      
